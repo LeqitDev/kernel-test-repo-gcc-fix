@@ -1,8 +1,10 @@
+#include <stdint.h>
+
 void init(void)
 {
-    long long x = 1569325056;
-    long long y = 1569325106;
-    long long ergebnis = x % y;
+    uint64_t x = 1569325056;
+    uint64_t y = 1569325106;
+    uint64_t ergebnis = x % y;
     const char hw[] = "Hello World!";
     int i;
     char* video = (char*) 0xb8000;
